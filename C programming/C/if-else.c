@@ -4,51 +4,51 @@ int main(){
 	
 	int vize,final;
 	float okulortalama;
-	float dersort;
+	float dersOrt;
 	printf("vize notunu giriniz:");
 	scanf("%d",&vize);
 	printf("final notunu giriniz:");
 	scanf("%d",&final);
-	printf("üniversite ortalmasýný giriniz:");
+	printf("Ã¼niversite ortalmasÃ½nÃ½ giriniz:");
 	scanf("%d",&okulortalama);
 	dersort = ((vize + final)/2);
 	
 	
-	if (dersort>90){
+	if (dersOrt>90){
 		
-		printf("HARF NOTUNUZ: AA ve ders ortalamanýz : %f",dersort);
+		printf("HARF NOTUNUZ: AA ve ders ortalamanÃ½z : %f",dersOrt);
 	}
-	else if(dersort>85 && 90>dersort){
+	else if(dersOrt>85 && 90>dersort){
 		
-		printf("HARF NOTUNUZ:BA ve ders ortalamanýz : %f",dersort);
+		printf("HARF NOTUNUZ:BA ve ders ortalamanÃ½z : %f",dersOrt);
 	}
-	else if(dersort>80 && 85>dersort){
+	else if(dersOrt>80 && 85>dersort){
 		
-		printf("HARF NOTUNUZ:BB ve ders ortalamanýz : %f",dersort);
+		printf("HARF NOTUNUZ:BB ve ders ortalamanÃ½z : %f",dersOrt);
 	}
-	else if(dersort>70 && 65>dersort){
+	else if(dersOrt>70 && 65>dersort){
 		
-		printf("HARF NOTUNUZ:CB ve ders ortalamanýz : %f",dersort);
+		printf("HARF NOTUNUZ:CB ve ders ortalamanÃ½z : %f",dersOrt);
 	}
-	else if(dersort>65 && 70>dersort){
+	else if(dersOrt>65 && 70>dersort){
 		
-		printf("HARF NOTUNUZ:CC ve ders ortalamanýz : %f",dersort);
+		printf("HARF NOTUNUZ:CC ve ders ortalamanÃ½z : %f",dersOrt);
 	}
-	else if(dersort>60 && 65>dersort){
+	else if(dersOrt>60 && 65>dersort){
 		
-		printf("HARF NOTUNUZ:DC ve ders ortalamanýz : %f",dersort);
+		printf("HARF NOTUNUZ:DC ve ders ortalamanÃ½z : %f",dersOrt);
 	}
-	else if(dersort>55 && 60>dersort){
+	else if(dersOrt>55 && 60>dersort){
 		
-		printf("HARF NOTUNUZ:DD ve ders ortalamanýz : %f",dersort);
+		printf("HARF NOTUNUZ:DD ve ders ortalamanÃ½z : %f",dersOrt);
 	}
-	else if(dersort>50 && 55>dersort){
+	else if(dersOrt>50 && 55>dersOrt){
 		
-		printf("HARF NOTUNUZ:FD ve ders ortalamanýz : %f",dersort);
+		printf("HARF NOTUNUZ:FD ve ders ortalamanÃ½z : %f",dersOrt);
 	}
-	else if(dersort>45){
+	else if(dersOrt>45){
 		
-		printf("HARF NOTUNUZ:FF ve ders ortalamanýz : %f",dersort);
+		printf("HARF NOTUNUZ:FF ve ders ortalamanÃ½z : %f",dersOrt);
 	}
 	
 	return 0;
