@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 void dizisirala(long int array[]);
-void anan(long int *element1 , long int *element2);
+void degis(long int *element1 , long int *element2);
 int main()
 {
      long int dizi[5]={625,563,53,96,2};
@@ -17,12 +17,12 @@ void dizisirala(long int array[])
     for(i=0;i<5;i++){
         for(j=0;j<5;j++){
             if(array[j]>array[j+1]){
-           anan(&array[j],&array[j+1]);
+           degis(&array[j],&array[j+1]);
             }
         }
     }
 }
-void anan(long int *element1,long  int *element2)
+void degis(long int *element1,long  int *element2)
 {
 
     int temp=*element1;
