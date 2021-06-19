@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 void bubblesort(int * );
-void bubblesorttwo(int *,int *);
+void bubblesort2(int *,int *);
 int main()
 {
     int i;
@@ -29,12 +29,12 @@ void bubblesort(int *diziPtr){
   for(j=1;j<=10;j++){
     for(k=0;k<10;k++){
         if(diziPtr[k]>diziPtr[k+1]){
-            bubblesorttwo(&diziPtr[k],&diziPtr[k+1]);
+            bubblesort2(&diziPtr[k],&diziPtr[k+1]);
         }
     }
   }
 }
-void bubblesorttwo(int *eleman1Ptr , int *eleman2Ptr)
+void bubblesort2(int *eleman1Ptr , int *eleman2Ptr)
 {
   int item=*eleman1Ptr;
  *eleman1Ptr=*eleman2Ptr;
